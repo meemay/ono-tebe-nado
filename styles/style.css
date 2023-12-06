@@ -1,7 +1,8 @@
 
 .content-section {
   font-weight: 400;
-  letter-spacing: -0.05px;
+  /* fixme */
+  letter-spacing: -0.025px;
 }
 
 .header {
