@@ -49,8 +49,8 @@
 }
 
 .header__address {
-  max-width: 240px;
-  grid-column: 7 / -1;
+  /* max-width: 240px; */
+  grid-column: 6 / -1;
   display: flex;
   flex-direction: column;
   text-wrap: nowrap;
