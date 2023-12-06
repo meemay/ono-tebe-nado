@@ -2,7 +2,7 @@
 .content-section {
   font-weight: 400;
   /* fixme */
-  letter-spacing: -0.1px;
+  letter-spacing: -0.11px;
 }
 
 .header {
@@ -28,7 +28,7 @@
 
 .header__link {
   text-decoration: underline;
-  text-underline-offset: 21%;
+  text-underline-offset: 20%;
 }
 
 .header__link-active {
