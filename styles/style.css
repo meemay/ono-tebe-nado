@@ -1,7 +1,7 @@
 
 .content-section {
   font-weight: 400;
-  /* fixme */
+  /* fixme? */
   letter-spacing: -0.15px;
 }
 
@@ -10,7 +10,7 @@
   padding: 92px 51px;
   display: grid;
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
-  place-content: space-evenly;
+  /* place-content: space-evenly; */
   font-size: 18px;
 }
 
@@ -55,7 +55,7 @@
   grid-column: 6 / -1;
   display: flex;
   flex-direction: column;
-  text-wrap: nowrap;
+  /* text-wrap: nowrap; */
   justify-content: center;
   justify-self: end;
   line-height: 1.35;
