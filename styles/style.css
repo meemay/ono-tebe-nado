@@ -2,11 +2,12 @@
 .content-section {
   font-weight: 400;
   /* fixme */
-  letter-spacing: -0.11px;
+  letter-spacing: -0.1px;
 }
 
 .header {
-  padding: 92px 49px 92px 51px;
+  /* figma absolute 92px 49px 92px 51px; */
+  padding: 92px 51px;
   display: grid;
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
   place-content: space-evenly;
