@@ -1,6 +1,9 @@
 @import './content/common.css';
 @import './content/header.css';
 @import './content/cover.css';
+@import './content/lots.css';
+@import './content/about.css';
+@import './content/footer.css';
 
 .aligned-text_center {
   text-align: center;
