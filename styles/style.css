@@ -76,17 +76,16 @@
   height: 757px;
   color: #fff;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
-  background: no-repeat center/100% url('../images/cover.jpg');
+  background: no-repeat center/cover url('../images/cover.jpg');
   line-height: 1.15;
 }
 
 .cover::before {
   z-index: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
+  /* width: 100%;
+  height: 100%; */
   content: '';
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -121,8 +120,8 @@
 }
 
 .cover__description-text {
-  /* before: 2cap, safari not support cap value */
-  word-spacing: 0.9em;
+  /* safari not support cap value */
+  word-spacing: 0.85em;
 }
 
 .aligned-text_center {
