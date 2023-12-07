@@ -83,7 +83,7 @@
 }
 
 .lots__look-more-link {
-  padding-left: 40px;
+  padding: 3px 40px;
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 17%;
