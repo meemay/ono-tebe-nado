@@ -2,8 +2,8 @@
   padding: 180px 50px 0;
   display: flex;
   flex-direction: column;
-  gap: 26px
-  /* letter-spacing: 0; */
+  gap: 27px;
+  letter-spacing: 0.01px;
 }
 
 .lots__heading {
