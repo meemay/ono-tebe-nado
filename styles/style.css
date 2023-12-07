@@ -1,7 +1,7 @@
-
 .content-section {
   font-weight: 400;
-  /* fixme? -0.15px  */
+  /* praktikum +- ok: -0.15px  */
+  /* me +- ok: 0.1px */
   letter-spacing: 0.1px;
 }
 
@@ -64,6 +64,61 @@
 
 .header__address-phone,
 .header__address-email {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-underline-offset: 17%;
+}
+
+.cover {
+  z-index: -1;
+  position: relative;
+  min-height: 757px;
+  color: #fff;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
+  background: no-repeat center/100% url('../images/cover.jpg');
+  line-height: 1.15;
+}
+
+.cover::before {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  z-index: 1;
+  position: relative;
+  padding: 165px 50px 237px 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 60px;
+  text-transform: uppercase;
+}
+
+.cover__description {
+  z-index: 1;
+  position: relative;
+  line-height: 1.27;
+  word-spacing: 2cap;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  font-weight: 100;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
 }
