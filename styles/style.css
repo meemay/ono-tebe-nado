@@ -76,6 +76,7 @@
   height: 757px;
   color: #fff;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
+  /* fixme cover or 100% */
   background: no-repeat center/cover url('../images/cover.jpg');
   line-height: 1.15;
 }
@@ -96,13 +97,13 @@
   padding: 0 50px;
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 20px;
+  line-height: 1;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
-
 
 .cover__description {
   padding: 0 50px 50px;
