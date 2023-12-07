@@ -1,6 +1,7 @@
 .about__column {
   padding: 180px 50px 0;
   display: grid;
+  grid-gap: 25px;
   justify-items: center;
   grid-template-columns: 430px auto;
   grid-template-rows: 450px;
@@ -24,7 +25,7 @@
 }
 
 .about__content {
-  padding: 100px 0 0 20px;
+  padding: 105px 0 0;
   display: flex;
   flex-direction: column;
   gap: 100px;
