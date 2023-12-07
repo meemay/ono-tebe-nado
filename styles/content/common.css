@@ -1,0 +1,6 @@
+.content-section {
+  font-weight: 400;
+  /* praktikum +- ok: -0.15px  */
+  /* me +- ok: 0.1px */
+  letter-spacing: -0.15px;
+}

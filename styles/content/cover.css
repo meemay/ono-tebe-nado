@@ -1,0 +1,77 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 165px;
+  height: 757px;
+  color: #fff;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
+  background: no-repeat center/cover url('../../images/cover.jpg');
+  line-height: 1.15;
+}
+
+.cover::before {
+  z-index: 0;
+  position: absolute;
+  inset: 0;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  z-index: 1;
+  position: relative;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.cover__title-text:first-of-type {
+  line-height: 1.15;
+}
+
+.cover__description {
+  padding: 0 50px 50px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  gap: 78px;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 1.27;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  /* safari not support cap value */
+  word-spacing: 0.85em;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.cover__description .bet-button:hover {
+  background-color: rgba(7, 7, 7, 0.2);
+}
+
+.cover__description .bet-button:active {
+  transform: scale(0.95);
+}
