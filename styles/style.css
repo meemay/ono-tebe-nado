@@ -55,7 +55,6 @@
   grid-column: 6 / -1;
   display: flex;
   flex-direction: column;
-  /* text-wrap: nowrap; */
   justify-content: center;
   justify-self: end;
   line-height: 1.35;
@@ -64,14 +63,17 @@
 
 .header__address-phone,
 .header__address-email {
-  /* text-decoration: underline; */
   text-underline-offset: 17%;
 }
 
 .cover {
   z-index: -1;
   position: relative;
-  min-height: 757px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 165px;
+  height: 757px;
   color: #fff;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
   background: no-repeat center/100% url('../images/cover.jpg');
@@ -92,9 +94,10 @@
 .cover__title {
   z-index: 1;
   position: relative;
-  padding: 165px 50px 237px 50px;
+  padding: 0 50px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 60px;
@@ -102,17 +105,22 @@
 }
 
 .cover__description {
+  padding: 0 50px 50px;
   z-index: 1;
   position: relative;
+  display: flex;
+  gap: 78px;
+  justify-content: flex-end;
+  align-items: center;
   line-height: 1.27;
-  word-spacing: 2cap;
-  font-size: 16px;
+  text-align: center;
+  font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
-.bet-button {
-  font-weight: 100;
+.cover__description-text {
+  word-spacing: 2cap;
 }
 
 .aligned-text_center {
@@ -121,4 +129,18 @@
 
 .aligned-text_right {
   text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
