@@ -1,6 +1,6 @@
 .header {
   /* figma absolute 92px 49px 92px 51px; */
-  padding: 92px 51px;
+  padding: 92px 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
   font-size: 18px;
@@ -15,7 +15,7 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 31px;
+  gap: 32px;
   list-style-type: circle;
 }
 
