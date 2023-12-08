@@ -52,7 +52,7 @@
   text-transform: uppercase;
   /* still, I think it would be better to use em, because it adapts to the font size. */
   /* previous value: 0.85em; */
-  word-spacing: 0.85em;
+  word-spacing: 18px;
 }
 
 .bet-button {
