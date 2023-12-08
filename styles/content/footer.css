@@ -1,7 +1,7 @@
 .footer {
   padding: 215px 50px 90px;
   display: flex;
-  gap: 355px;
+  gap: 350px;
   justify-content: space-between;
   align-items: start;
   font-size: 18px;
@@ -21,7 +21,6 @@
   align-items: center;
   list-style: none;
   text-transform: lowercase;
-  text-wrap: nowrap;
 }
 
 .footer__link-active {
