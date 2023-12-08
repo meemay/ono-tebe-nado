@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding-top: 165px;
-  height: 757px;
+  gap: 135px;
   color: #fff;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
   background: no-repeat center/cover url('../../images/cover.jpg');
