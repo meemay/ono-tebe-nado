@@ -53,8 +53,3 @@
   line-height: 1.35;
   font-style: normal;
 }
-
-.header__address-phone,
-.header__address-email {
-  text-underline-offset: 17%;
-}

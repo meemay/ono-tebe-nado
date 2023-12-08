@@ -5,6 +5,11 @@
 @import './content/about.css';
 @import './content/footer.css';
 
+.address-link {
+  text-decoration: underline;
+  text-underline-offset: 17%;
+}
+
 .aligned-text_center {
   text-align: center;
 }
