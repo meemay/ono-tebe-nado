@@ -66,6 +66,7 @@
   font-weight: 400;
   text-transform: uppercase;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .cover__description .bet-button:hover {
