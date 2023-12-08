@@ -11,6 +11,7 @@
 }
 
 .address-text {
+  /* optimal value is 240, but then the office number break the line in the Praktikum */
   max-width: 245px;
 }
 
