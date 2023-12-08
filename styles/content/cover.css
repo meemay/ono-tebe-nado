@@ -50,11 +50,9 @@
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
-}
-
-.cover__description-text {
-  /* safari not support cap value */
-  word-spacing: 0.85em;
+  /* still, I think it would be better to use em, because it adapts to the font size. */
+  /* previous value: 0.85em; */
+  word-spacing: 18px;
 }
 
 .bet-button {
