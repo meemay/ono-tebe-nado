@@ -20,6 +20,7 @@
 }
 
 .header__link {
+  text-transform: lowercase;
   text-decoration: underline;
   text-underline-offset: 18%;
 }
