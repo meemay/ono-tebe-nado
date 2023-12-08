@@ -6,7 +6,9 @@
 
 body {
   min-width: 1100px;
-  margin: 0;
+  /* for compatibility of large-format monitors like 21:9 */
+  max-width: 1440px;
+  margin: auto;
   font-family: Raleway, sans-serif;
 }
 
