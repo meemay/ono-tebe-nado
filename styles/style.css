@@ -1,9 +1,9 @@
-@import './content/common.css';
-@import './content/header.css';
-@import './content/cover.css';
-@import './content/lots.css';
-@import './content/about.css';
-@import './content/footer.css';
+@import './components/common.css';
+@import './components/header.css';
+@import './components/cover.css';
+@import './components/lots.css';
+@import './components/about.css';
+@import './components/footer.css';
 
 .address-link {
   text-decoration: underline;

@@ -1,3 +1,7 @@
+.content-section {
+  font-weight: 400;
+}
+
 .header {
   /* figma absolute 92px 49px 92px 51px; */
   padding: 92px 50px;
