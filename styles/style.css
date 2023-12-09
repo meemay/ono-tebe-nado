@@ -66,7 +66,7 @@
   gap: 135px;
   color: #fff;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/background#syntax */
-  background: no-repeat center/cover url('../../images/cover.jpg');
+  background: no-repeat center/cover url('./images/cover.jpg');
   line-height: 1.15;
 }
 
@@ -191,15 +191,15 @@
 }
 
 .card-type-film {
-  background: no-repeat center/cover url('../../images/card-lot-01.jpg');
+  background: no-repeat center/cover url('./images/card-lot-01.jpg');
 }
 
 .card-type-book {
-  background: no-repeat center/cover url('../../images/card-lot-02.jpg');
+  background: no-repeat center/cover url('./images/card-lot-02.jpg');
 }
 
 .card-type-picture {
-  background: no-repeat center/cover url('../../images/card-lot-03.jpg');
+  background: no-repeat center/cover url('./images/card-lot-03.jpg');
 }
 
 .card__title {
